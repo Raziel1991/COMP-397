@@ -1,0 +1,76 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio / MonoDevelop generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# Mac OS generated files
+.DS_Store
+.DS_Store?
+
+# Windows generated files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Build generated files
+*.apk
+*.unitypackage
+
+# Crashlytics generated files
+crashlytics-build.properties
+
+# Gradle cache
+.gradle/
+
+# Asset meta files
+*.pidb.meta
+*.pidb.metadata
+
+# Auto-generated lightmap files
+[Ll]ightmapSnapshot/
+*.exr
+
+# Unity Asset Store tools
+Assets/AssetStoreTools*
+
+# JetBrains Rider
+.idea/
+
+# Yarn Berry files
+.yarn/*
+!.yarn/cache/
+!.yarn/unplugged/
+!.yarn/build-state.yml
+!.yarn/install-state.gz
+.pnp.*
+
+# Logs
+*.log
+
+# Unity Environment Variables
+.env
+
+# Addressable Asset System
+# Ignore the AddressableAssetsData folder if you do not want to check-in Addressable assets data
+# /Assets/AddressableAssetsData/*.*
