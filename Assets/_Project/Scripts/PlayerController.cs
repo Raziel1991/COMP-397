@@ -17,25 +17,24 @@ namespace Platformer397
 
         private void OnEnable()
         {
-            // test it with the enable and disable checkmarks in the inspector
-            //Debug.Log("[OnEnable]");
+
             input.Move += GetMovement;
 
         }
         private void OnDisable()
         {
-            Debug.Log("[OnDisable]");
+            
             input.Move -= GetMovement;
         }
 
-        //private void OnDestroy()
-        //{
-        //    Debug.Log("[OnDestroy]");
-        //}
+        private void OnDestroy()
+        {
+            Debug.Log("[OnDestroy]");
+        }
 
         private void GetMovement(Vector2 move)
         {
-            Debug.Log("[GetMovement]" + move );
+            Debug.Log("Input working " + move);
         }
 
     }

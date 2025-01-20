@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\College\\4semester\\webGaming\\COMP-397\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|D:\\College\\4semester\\webGaming\\COMP-397\\assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|d:\\college\\4semester\\webgaming\\comp-397\\assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|d:\\college\\4semester\\webgaming\\comp-397\\assets\\_project\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|D:\\College\\4semester\\webGaming\\COMP-397\\assets\\_project\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\InputReader.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAA/wCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T23:50:14.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T23:50:14.397Z"
             }
           ]
         }

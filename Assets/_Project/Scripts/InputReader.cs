@@ -10,28 +10,8 @@ namespace Platformer397
     public class InputReader : ScriptableObject, IPlayerActions
     {
         public event UnityAction<Vector2> Move = delegate { };
-        public void OnMove(InputAction.CallbackContext context) 
-        {
-            switch (context.phase)
-            {
-                case InputActionPhase.Performed:
-                case InputActionPhase.Canceled:
-                    Move?.Invoke(context.ReadValue<Vector2>());
-                    break;
-            }
-            Move?.Invoke(context.ReadValue<Vector2>());
-        }
-        public void OnLook(InputAction.CallbackContext context) { }
-        public void OnAttack(InputAction.CallbackContext context) { }
-        public void OnInteract(InputAction.CallbackContext context) { }
-        public void OnCrouch(InputAction.CallbackContext context) { }
-        public void OnJump(InputAction.CallbackContext context) { }
-        public void OnPrevious(InputAction.CallbackContext context) { }
-        public void OnNext(InputAction.CallbackContext context) { }
-        public void OnSprint(InputAction.CallbackContext context) { }
 
-
-
+       
 
         InputSystem_Actions input;
         private void OnEnable()
@@ -51,5 +31,32 @@ namespace Platformer397
             input.Enable();
 
         }
+
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        //Explanation: This method is called when the script instance is being loaded.
+        // https://www.youtube.com/watch?v=EhHsm95D_C0&list=PLQzk5yF-sBwCjj-6oYr9EHOguj4PzbqHj&index=13&t=9127s
+        //2:23:28
+        public void OnMove(InputAction.CallbackContext context)
+        {
+            switch (context.phase)
+            {
+                case InputActionPhase.Performed:
+                case InputActionPhase.Canceled:
+                    Move?.Invoke(context.ReadValue<Vector2>());
+                    break;
+            }
+           
+        }
+
+
+        public void OnLook(InputAction.CallbackContext context) { }
+        public void OnAttack(InputAction.CallbackContext context) { }
+        public void OnInteract(InputAction.CallbackContext context) { }
+        public void OnCrouch(InputAction.CallbackContext context) { }
+        public void OnJump(InputAction.CallbackContext context) { }
+        public void OnPrevious(InputAction.CallbackContext context) { }
+        public void OnNext(InputAction.CallbackContext context) { }
+        public void OnSprint(InputAction.CallbackContext context) { }
+
     }
 }
