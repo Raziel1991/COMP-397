@@ -34,8 +34,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _DistortionStrength: 0.2
-    - _ScrollSpeed: 0.5
+    - _ScrollSpeed: 0.05
     m_Colors:
-    - _EmissionColor: {r: 1, g: 0.24298395, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 0, b: 0.1288414, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

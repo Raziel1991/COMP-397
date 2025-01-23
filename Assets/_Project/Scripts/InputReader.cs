@@ -44,6 +44,8 @@ namespace Platformer397
                 case InputActionPhase.Canceled:
                     Move?.Invoke(context.ReadValue<Vector2>());
                     break;
+                default:
+                    break;
             }
            
         }
