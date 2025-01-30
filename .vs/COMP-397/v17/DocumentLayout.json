@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\College\\4semester\\webGaming\\COMP-397\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|d:\\college\\4semester\\webgaming\\comp-397\\assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|d:\\college\\4semester\\webgaming\\comp-397\\assets\\_project\\scripts\\enemynavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemynavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|d:\\college\\4semester\\webgaming\\comp-397\\assets\\_project\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|D:\\College\\4semester\\webGaming\\COMP-397\\assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8938A7F-5A21-1961-DECF-C0A149E3844F}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,25 +45,50 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFwAAAAAAAAAAAAAAA==",
+              "Title": "EnemyNavigation.cs",
+              "DocumentMoniker": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\EnemyNavigation.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyNavigation.cs",
+              "ToolTip": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\EnemyNavigation.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyNavigation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T00:32:49.756Z",
+              "WhenOpened": "2025-01-30T00:13:23.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\CameraManager.cs",
+              "ToolTip": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\CameraManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:54:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T00:32:49.756Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InputReader.cs",
               "DocumentMoniker": "D:\\College\\4semester\\webGaming\\COMP-397\\Assets\\_Project\\Scripts\\InputReader.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\InputReader.cs",
@@ -63,8 +96,7 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\InputReader.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwC8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T23:50:14.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T23:50:14.397Z"
             }
           ]
         }
